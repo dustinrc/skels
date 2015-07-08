@@ -15,6 +15,12 @@
 img, iframe, video, object {
     max-width: 100%;
 }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 strong, b {
     font-weight: bold;
 }
